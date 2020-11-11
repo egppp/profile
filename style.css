@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+  background-color: #E2DCDE;
+  font-family: 'Raleway', sans-serif;
+  color: #2D2D34;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 25 px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 20 px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+button {
+  background-color: #F6F4F4;
+  font: 400 20px Raleway;
+  border: none;
+  border-radius: 5%;
+  line-height: 1.5;
+  padding: 15px 32px;
+}
+
+a {
+  color: #5F5F6D;
+}
+
+a:hover {
+  color: #3F2732;
+}
+
+.card{
+  background: white;
+  border-radius: 4px;
+  margin: 50px 200px;
+  box-shadow: 4px 4px 30px 4px rgba(95,95,109,0.3);
+  text-align: center;
+  padding: 40px;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0px;
+
+}
+
+li {
+  display: inline;
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
